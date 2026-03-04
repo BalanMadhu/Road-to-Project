@@ -1,0 +1,8 @@
+# Dictionary example (key-value pairs)
+student = {"name": "Madhu", "age": 22, "course": "Python"}
+print("Student name:", student["name"])
+
+# Built-in functions
+student["age"] = 23   # update value
+student["grade"] = "A"  # add new key
+print("Updated dictionary:", student)
